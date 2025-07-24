@@ -24,6 +24,7 @@
 
 * {
     box-sizing: border-box;
+    
     padding: 0;
 }
 html,
@@ -32,8 +33,8 @@ body {
     max-height: $container-height;
     font-family: $font-family-main;
     font-size: $font-size-main;
+    margin: 0 auto;
  }
-
 
 
 .header {
@@ -169,3 +170,4 @@ body {
 .header {
     @include flex-center(space-between, center);
 }
+
